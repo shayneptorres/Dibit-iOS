@@ -1,0 +1,6 @@
+framework module Pods_Dibit {
+  umbrella header "Pods-Dibit-umbrella.h"
+
+  export *
+  module * { export * }
+}

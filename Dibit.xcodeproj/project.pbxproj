@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5510BA5681B662A4FCBAAA /* Pods_DibitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4316DBD5B684725C1DC9A124 /* Pods_DibitUITests.framework */; };
+		B5C07F1A97D2895EEE4205B1 /* Pods_DibitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245ABD1CC684F9DBF6EFE8D2 /* Pods_DibitTests.framework */; };
 		B8B101BD1EDB1870005EEF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101BC1EDB1870005EEF91 /* AppDelegate.swift */; };
 		B8B101C21EDB1870005EEF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B101C01EDB1870005EEF91 /* Main.storyboard */; };
 		B8B101C51EDB1870005EEF91 /* Dibit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8B101C31EDB1870005EEF91 /* Dibit.xcdatamodeld */; };
@@ -15,6 +17,8 @@
 		B8B101D51EDB1870005EEF91 /* DibitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101D41EDB1870005EEF91 /* DibitTests.swift */; };
 		B8B101E01EDB1870005EEF91 /* DibitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101DF1EDB1870005EEF91 /* DibitUITests.swift */; };
 		B8B101F01EDB1BD5005EEF91 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101EF1EDB1BD5005EEF91 /* DataStore.swift */; };
+		B8B101F21EDB1DA9005EEF91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8B101F11EDB1DA9005EEF91 /* GoogleService-Info.plist */; };
+		C822EF5447EB79C9C1CEF0FE /* Pods_Dibit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3ABD16AA73F17E19E54C11 /* Pods_Dibit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15E4EAA7C30447E5073A0717 /* Pods-DibitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DibitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DibitTests/Pods-DibitTests.release.xcconfig"; sourceTree = "<group>"; };
+		245ABD1CC684F9DBF6EFE8D2 /* Pods_DibitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DibitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4316DBD5B684725C1DC9A124 /* Pods_DibitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DibitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D894AAAB3FF8AB60256FCC /* Pods-DibitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DibitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DibitTests/Pods-DibitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B3ABD16AA73F17E19E54C11 /* Pods_Dibit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dibit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		726A68954D0C37004E173A2B /* Pods-DibitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DibitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DibitUITests/Pods-DibitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B61342F54F65AEFAD03B16F5 /* Pods-Dibit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dibit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dibit/Pods-Dibit.release.xcconfig"; sourceTree = "<group>"; };
 		B8B101B91EDB1870005EEF91 /* Dibit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dibit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B101BC1EDB1870005EEF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B101C11EDB1870005EEF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		B8B101DF1EDB1870005EEF91 /* DibitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibitUITests.swift; sourceTree = "<group>"; };
 		B8B101E11EDB1870005EEF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8B101EF1EDB1BD5005EEF91 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		B8B101F11EDB1DA9005EEF91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D28D157D74A539112569974C /* Pods-Dibit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dibit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dibit/Pods-Dibit.debug.xcconfig"; sourceTree = "<group>"; };
+		DD9D5098CA608E6B6A5F9DC6 /* Pods-DibitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DibitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DibitUITests/Pods-DibitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C822EF5447EB79C9C1CEF0FE /* Pods_Dibit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C07F1A97D2895EEE4205B1 /* Pods_DibitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5510BA5681B662A4FCBAAA /* Pods_DibitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB5BDDD52796D1AF0575D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D28D157D74A539112569974C /* Pods-Dibit.debug.xcconfig */,
+				B61342F54F65AEFAD03B16F5 /* Pods-Dibit.release.xcconfig */,
+				46D894AAAB3FF8AB60256FCC /* Pods-DibitTests.debug.xcconfig */,
+				15E4EAA7C30447E5073A0717 /* Pods-DibitTests.release.xcconfig */,
+				DD9D5098CA608E6B6A5F9DC6 /* Pods-DibitUITests.debug.xcconfig */,
+				726A68954D0C37004E173A2B /* Pods-DibitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D5EF0B8ECD9A7F183E7234F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B3ABD16AA73F17E19E54C11 /* Pods_Dibit.framework */,
+				245ABD1CC684F9DBF6EFE8D2 /* Pods_DibitTests.framework */,
+				4316DBD5B684725C1DC9A124 /* Pods_DibitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8B101B01EDB186F005EEF91 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				B8B101D31EDB1870005EEF91 /* DibitTests */,
 				B8B101DE1EDB1870005EEF91 /* DibitUITests */,
 				B8B101BA1EDB1870005EEF91 /* Products */,
+				2EB5BDDD52796D1AF0575D40 /* Pods */,
+				8D5EF0B8ECD9A7F183E7234F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +170,7 @@
 		B8B101ED1EDB1912005EEF91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8B101F11EDB1DA9005EEF91 /* GoogleService-Info.plist */,
 				B8B101C61EDB1870005EEF91 /* Assets.xcassets */,
 				B8B101CB1EDB1870005EEF91 /* Info.plist */,
 				B8B101C81EDB1870005EEF91 /* LaunchScreen.storyboard */,
@@ -151,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8B101E41EDB1870005EEF91 /* Build configuration list for PBXNativeTarget "Dibit" */;
 			buildPhases = (
+				57158FE147CC8A62BFD6CFDA /* [CP] Check Pods Manifest.lock */,
 				B8B101B51EDB186F005EEF91 /* Sources */,
 				B8B101B61EDB186F005EEF91 /* Frameworks */,
 				B8B101B71EDB186F005EEF91 /* Resources */,
+				DC37551B8B50ADD97FD0ED45 /* [CP] Embed Pods Frameworks */,
+				B7E74FD66B672D79BAA11D8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8B101E71EDB1870005EEF91 /* Build configuration list for PBXNativeTarget "DibitTests" */;
 			buildPhases = (
+				090BEB0B0AD71DB93A979DA9 /* [CP] Check Pods Manifest.lock */,
 				B8B101CC1EDB1870005EEF91 /* Sources */,
 				B8B101CD1EDB1870005EEF91 /* Frameworks */,
 				B8B101CE1EDB1870005EEF91 /* Resources */,
+				34E255C8F9E3CEAA74CAECF2 /* [CP] Embed Pods Frameworks */,
+				B27E243064858F15FB8B99B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8B101EA1EDB1870005EEF91 /* Build configuration list for PBXNativeTarget "DibitUITests" */;
 			buildPhases = (
+				7D08FBC526013ACA72CA9F82 /* [CP] Check Pods Manifest.lock */,
 				B8B101D71EDB1870005EEF91 /* Sources */,
 				B8B101D81EDB1870005EEF91 /* Frameworks */,
 				B8B101D91EDB1870005EEF91 /* Resources */,
+				596CE679061711A9948E85C2 /* [CP] Embed Pods Frameworks */,
+				6866704A29BAE981B8843F48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B101CA1EDB1870005EEF91 /* LaunchScreen.storyboard in Resources */,
+				B8B101F21EDB1DA9005EEF91 /* GoogleService-Info.plist in Resources */,
 				B8B101C71EDB1870005EEF91 /* Assets.xcassets in Resources */,
 				B8B101C21EDB1870005EEF91 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +328,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090BEB0B0AD71DB93A979DA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34E255C8F9E3CEAA74CAECF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DibitTests/Pods-DibitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57158FE147CC8A62BFD6CFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		596CE679061711A9948E85C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DibitUITests/Pods-DibitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6866704A29BAE981B8843F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DibitUITests/Pods-DibitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D08FBC526013ACA72CA9F82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B27E243064858F15FB8B99B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DibitTests/Pods-DibitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E74FD66B672D79BAA11D8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dibit/Pods-Dibit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC37551B8B50ADD97FD0ED45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dibit/Pods-Dibit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8B101B51EDB186F005EEF91 /* Sources */ = {
@@ -433,6 +624,7 @@
 		};
 		B8B101E51EDB1870005EEF91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28D157D74A539112569974C /* Pods-Dibit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZC55HLSXNP;
@@ -446,6 +638,7 @@
 		};
 		B8B101E61EDB1870005EEF91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61342F54F65AEFAD03B16F5 /* Pods-Dibit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZC55HLSXNP;
@@ -459,6 +652,7 @@
 		};
 		B8B101E81EDB1870005EEF91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D894AAAB3FF8AB60256FCC /* Pods-DibitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,6 +668,7 @@
 		};
 		B8B101E91EDB1870005EEF91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E4EAA7C30447E5073A0717 /* Pods-DibitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +684,7 @@
 		};
 		B8B101EB1EDB1870005EEF91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9D5098CA608E6B6A5F9DC6 /* Pods-DibitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZC55HLSXNP;
@@ -503,6 +699,7 @@
 		};
 		B8B101EC1EDB1870005EEF91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726A68954D0C37004E173A2B /* Pods-DibitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ZC55HLSXNP;

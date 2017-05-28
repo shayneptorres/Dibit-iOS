@@ -1,0 +1,6 @@
+framework module Pods_DibitTests {
+  umbrella header "Pods-DibitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
