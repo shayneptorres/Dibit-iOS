@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B8B101BD1EDB1870005EEF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101BC1EDB1870005EEF91 /* AppDelegate.swift */; };
-		B8B101BF1EDB1870005EEF91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101BE1EDB1870005EEF91 /* ViewController.swift */; };
 		B8B101C21EDB1870005EEF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B101C01EDB1870005EEF91 /* Main.storyboard */; };
 		B8B101C51EDB1870005EEF91 /* Dibit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8B101C31EDB1870005EEF91 /* Dibit.xcdatamodeld */; };
 		B8B101C71EDB1870005EEF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B101C61EDB1870005EEF91 /* Assets.xcassets */; };
 		B8B101CA1EDB1870005EEF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B101C81EDB1870005EEF91 /* LaunchScreen.storyboard */; };
 		B8B101D51EDB1870005EEF91 /* DibitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101D41EDB1870005EEF91 /* DibitTests.swift */; };
 		B8B101E01EDB1870005EEF91 /* DibitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101DF1EDB1870005EEF91 /* DibitUITests.swift */; };
+		B8B101F01EDB1BD5005EEF91 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B101EF1EDB1BD5005EEF91 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		B8B101B91EDB1870005EEF91 /* Dibit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dibit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B101BC1EDB1870005EEF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8B101BE1EDB1870005EEF91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B8B101C11EDB1870005EEF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8B101C41EDB1870005EEF91 /* Dibit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dibit.xcdatamodel; sourceTree = "<group>"; };
 		B8B101C61EDB1870005EEF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		B8B101DB1EDB1870005EEF91 /* DibitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DibitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B101DF1EDB1870005EEF91 /* DibitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibitUITests.swift; sourceTree = "<group>"; };
 		B8B101E11EDB1870005EEF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8B101EF1EDB1BD5005EEF91 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				B8B101BC1EDB1870005EEF91 /* AppDelegate.swift */,
-				B8B101BE1EDB1870005EEF91 /* ViewController.swift */,
 				B8B101C01EDB1870005EEF91 /* Main.storyboard */,
-				B8B101C61EDB1870005EEF91 /* Assets.xcassets */,
-				B8B101C81EDB1870005EEF91 /* LaunchScreen.storyboard */,
-				B8B101CB1EDB1870005EEF91 /* Info.plist */,
-				B8B101C31EDB1870005EEF91 /* Dibit.xcdatamodeld */,
+				B8B101EE1EDB1939005EEF91 /* Datamodels */,
+				B8B101ED1EDB1912005EEF91 /* Supporting Files */,
 			);
 			path = Dibit;
 			sourceTree = "<group>";
@@ -126,6 +123,25 @@
 				B8B101E11EDB1870005EEF91 /* Info.plist */,
 			);
 			path = DibitUITests;
+			sourceTree = "<group>";
+		};
+		B8B101ED1EDB1912005EEF91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8B101C61EDB1870005EEF91 /* Assets.xcassets */,
+				B8B101CB1EDB1870005EEF91 /* Info.plist */,
+				B8B101C81EDB1870005EEF91 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8B101EE1EDB1939005EEF91 /* Datamodels */ = {
+			isa = PBXGroup;
+			children = (
+				B8B101C31EDB1870005EEF91 /* Dibit.xcdatamodeld */,
+				B8B101EF1EDB1BD5005EEF91 /* DataStore.swift */,
+			);
+			name = Datamodels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8B101BF1EDB1870005EEF91 /* ViewController.swift in Sources */,
 				B8B101C51EDB1870005EEF91 /* Dibit.xcdatamodeld in Sources */,
+				B8B101F01EDB1BD5005EEF91 /* DataStore.swift in Sources */,
 				B8B101BD1EDB1870005EEF91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
